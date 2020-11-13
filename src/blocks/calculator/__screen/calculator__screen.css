@@ -1,0 +1,5 @@
+.calculator__screen{
+    min-height: 50px;
+    overflow: hidden;
+    background-color: #87ac35;
+}

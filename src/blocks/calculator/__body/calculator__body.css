@@ -1,0 +1,7 @@
+.calculator__body {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  background-color: black;
+  height: 250px;
+  gap: 1px;
+}

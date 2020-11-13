@@ -1,0 +1,11 @@
+@import url(./__body/calculator__body.css);
+@import url(./__numpad/calculator__numpad.css);
+@import url(./__operations/calculator__operations.css);
+@import url(./__screen/calculator__screen.css);
+@import url(./__button/calculator__button.css);
+
+.calculator{
+    display: grid;
+    flex-direction: column;
+    max-width: 250px;
+}

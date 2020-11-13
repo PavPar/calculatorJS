@@ -1,0 +1,8 @@
+.calculator__button{
+    border: none;
+}
+
+.calculator__button:hover{
+    color: white;
+    background-color: black;
+}

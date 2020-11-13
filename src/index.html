@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <main class="calculator">
+        <h2 class="calculator__screen">
+            <p class="calculator__output"></p>
+            <p class="calculator__input"></p>
+        </h2>
+        <section class="calculator__body">
+            <section class="calculator__numpad">
+                <button class="calculator__button">1</button>
+                <button class="calculator__button">2</button>
+                <button class="calculator__button">3</button>
+                <button class="calculator__button">4</button>
+                <button class="calculator__button">5</button>
+                <button class="calculator__button">6</button>
+                <button class="calculator__button">7</button>
+                <button class="calculator__button">8</button>
+                <button class="calculator__button">9</button>
+                <button class="calculator__button">0</button>
+            </section>
+
+            <section class="calculator__operations">
+                <button class="calculator__button">+</button>
+                <button class="calculator__button">-</button>
+                <button class="calculator__button">*</button>
+                <button class="calculator__button">/</button>
+                <button class="calculator__button">=</button>
+            </section>
+        </section>
+
+    </main>
+</body>
+<script src="./calcultor.js"></script>
+
+</html>
